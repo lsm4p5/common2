@@ -20,15 +20,7 @@ public class SessionManager {
      * 세션 생성--jjjj
      */
     public void createSession(Object value, HttpServletResponse response) {
-
-
-
-
-
-
-
-
-
+        int r=1;
     }
 
     /**
