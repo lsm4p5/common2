@@ -17,19 +17,11 @@ public class SessionManager {
     private Map<String, Object> sessionStroe = new ConcurrentHashMap<>();
 
     /**
-     * 세션 생성
+     * 세션 생성--jjjj
      */
     public void createSession(Object value, HttpServletResponse response) {
 
-        // 세션 Id를 생성사하고, 값을 세션에 저장
 
-        String sessionId = UUID.randomUUID().toString();
-        sessionStroe.put(sessionId, value);
-
-        //쿠키 생성
-
-        Cookie mySessionCookie = new Cookie(SESSION_COOKIE_NAME, sessionId);
-        response.addCookie(mySessionCookie);
     }
 
     /**
